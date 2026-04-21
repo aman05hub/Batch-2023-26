@@ -1,0 +1,13 @@
+{
+  "name": "bca-album-root",
+  "version": "1.0.0",
+  "description": "BCA Batch 2023-26 Photo Album - SPM Patel College",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && npm start",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "private": true
+}
